@@ -1,4 +1,10 @@
 import pygame
+WIDTH = 800
+HEIGHT = 600
+RED = (255, 0, 0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)  # Definición del color negro
+FPS = 60
 
 # Clase Torre
 class Torre:

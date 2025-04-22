@@ -1,8 +1,15 @@
 import pygame
-from lanzador import Lanzador
-from torre import Torre
-from piedra import Piedra
+# Removed redundant import of Lanzador
+from ejercicio1.torre import Torre
+from ejercicio1.piedra import Piedra
 import sys
+# Define missing constants
+WIDTH = 800
+HEIGHT = 600
+RED = (255, 0, 0)
+WHITE = (255, 255, 255)
+FPS = 60
+
 # Clase Lanzador
 class Lanzador:
     def __init__(self):
